@@ -21,5 +21,6 @@ const handleSignUp = async () => {
 <template>
   <div class="todoRender">
 
+    hello from index
   </div>
 </template>
