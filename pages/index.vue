@@ -35,11 +35,10 @@ const supbase = useSupabaseClient();
 // handleLogin()
 
 
-const res = await supbase.auth.getUser()
+const res = await supbase.auth.getUser();
 //@ts-ignore
-const uid = res.data.user.id
+const uid = res.data.user.id;
 console.log(res)
-console.log(uid)
 </script>
 
 <template>
